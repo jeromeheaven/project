@@ -1,0 +1,145 @@
+
+/* Swappr Code Starts Here */
+
+body {
+ padding: 0;
+ margin: 0;
+ height: 100%
+ color: #000;
+}
+
+p {
+ font-size: 16px;
+ margin: 0;
+ padding: 0;
+ color: #333;
+}
+
+a:link {
+  font-size: 16px;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+a:visited {
+  font-size: 16px;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6, ul, ol, li {
+  margin: 0;
+  padding: 0;
+  font-family: "Avenir","Helvetica", "Arial", sans-serif;
+}
+
+ul,ol {
+  list-style-type: none;
+  color: #fff;
+  font-family: "arial";
+}
+
+::selection {
+  color: #fff;
+  background-color: #333;
+}
+
+::-moz-selection {
+  color: #fff;
+  background-color: #333;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Top nav */
+.top-nav {
+position: fixed;
+width: 100%;
+background: #273576;
+height: 80px;
+box-shadow: 0 0 8px rgba(0,0,0,.4);
+}
+
+
+.logo {
+  width: 100px;
+  padding: 15px;
+  color: #fff;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+/* Nav Search Bar */
+
+#nav-search {
+  margin-left: 350px;
+  position: relative;
+  bottom: 60px;
+  width: 370px;
+  display: inline-block;
+  height: 100%;
+
+}
+
+#nav-search form input {
+  display: block;
+  width: 100%;
+  padding: 22px 10px 18px 52px;
+  border: none;
+  outline: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  color: #aaa;
+  box-sizing: border-box;
+}
+
+#nav-search form input::-webkit-input-placeholder {
+    color: #aaa;
+    }
+
+  #nav-search form input::-moz-placeholder {
+    color: #aaa;
+    }
+
+  #nav-search form input::-ms-input-placeholder {
+      color: #aaa;
+    }
+
+  #nav-search form input::-moz-placeholder {
+      color: #aaa;
+    }
+
+
+
+#search {
+  padding-left: 40px;
+  background-image: url(../icons8-search-64.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+}
+
+.top-nav ul {
+  float: right;
+  margin: -120px 0;
+}
+
+.top-nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.top-nav ul:visited {
+    color: #fff;

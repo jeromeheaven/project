@@ -1,0 +1,360 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* Swappr Code Starts Here */
+
+body {
+  font-family: "Avenir","Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-image: url("../landing-Page.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#logo-text {
+  padding-top: 40px;
+  margin-bottom: 25px;
+  font-size: 40px;
+  font-weight: 500;
+  position: relative;
+right: 90px;
+}
+
+
+.facebook-btn {
+position: relative;
+bottom: 160px;
+right: 90px;
+}
+
+.twitter-btn {
+position: relative;
+bottom: 160px;
+right: 90px;
+}
+
+.facebook-btn:hover {
+cursor: pointer;
+}
+
+.twitter-btn:hover {
+cursor: pointer;
+}
+
+h3 {
+  font-size: 25px;
+color: grey;
+font-weight: 400;
+letter-spacing: 1px;
+position: relative;
+right: 35px;
+}
+
+.slogan-text{
+  margin-left: 600px;
+  font-size: 50px;
+  color: #fff;
+  position: relative;
+  left: 20px;
+
+}
+
+.or-text {
+  padding-left: 110px;
+position: relative;
+bottom: 140px;
+}
+
+.nav-login {
+  position: relative;
+  bottom: 80px;
+}
+
+.nav-login input {
+  display: block;
+background-color: transparent;
+border: 0;
+border-bottom: 1px solid #000;
+height: 27px;
+line-height: 27px;
+width: 100%;
+
+}
+
+.terms {
+  padding-left: 30px;
+  margin-top: 130px;
+  font-size: 16px;
+  line-height: normal;
+}
+
+.main-panel__heading {
+font-size: 28px;
+font-weight: 400;
+color: #434C5F;
+margin-bottom: 50px;
+position: relative;
+bottom: 100px;
+left: 30px;
+}
+
+.main-panel__heading.register {
+  position: relative;
+  top: 7px;
+  left: 0px;
+  font-size: 24px;
+  font-size: 28px;
+  font-weight: 400;
+  color: #434C5F;
+  margin-bottom: 50px;
+  position: relative;
+  bottom: 100px;
+  left: 30px;
+}
+
+.main-panel__subheading {
+display: block;
+margin-top: 10px;
+font-size: 16px;
+color: #596377;
+position: relative;
+bottom: 135px;
+left: 40px;
+margin-bottom: -100px;
+
+}
+
+
+#loginContainer * {
+  line-height: 1em;
+  box-sizing: border-box;
+}
+
+#loginContainer {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+  max-width: 1024px
+}
+
+#loginContainer button {
+  display: inline-block;
+    margin: 20px auto;
+    background: #273576;
+    border-radius: 100px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 60px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #FFF;
+    cursor: pointer;
+    -webkit-transition: box-shadow .2s ease,border .2s ease;
+    transition: box-shadow .2s ease,border .2s ease;
+}
+
+/* placeholder text color change */
+::-webkit-input-placeholder { /* WebKit,Blink, Edge */
+  color: #000;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: #000;
+  opacity: 1;
+}
+::-moz-placeholder { /*Mozilla Firefox 19+ */
+color: #000;
+opacity: 1;
+}
+:-ms-input-placeholder { /*Internet Explorer 10-11 */
+  color: #000;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+color: #000;
+}
+
+#inputContainer {
+width: 400px;
+padding: 45px;
+float: left;
+position: relative;
+right: 60px;
+bottom: 60px;
+}
+
+#inputContainer h2 {
+  text-align: center;
+}
+
+#loginUsername {
+width: 20%;
+height: 200%;
+}
+
+#loginPassword {
+  width: 20%;
+  height: 200%;
+}
+
+#inputContainer input[type="text"],
+#inputContainer input[type="email"],
+#inputContainer input[type="password"]{
+display: block;
+background-color: transparent;
+border: 1px solid #000;
+height: 27px;
+line-height: 27px;
+width: 100%
+}
+
+#inputContainer label{
+  color: #000;
+  font-size: 13px;
+  display: block;
+  margin-top: 15px;
+}
+
+#inputContainer button {
+  background-color: transparent;
+  border: 1px solid #000;
+  color: #000;
+  display: block;
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin: 20px auto;
+  height: 41px;
+  width: 100%;
+  point
+}
+
+#inputContainer button {
+cursor: pointer;
+}
+
+.hasAccountText span {
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.hasAccountText {
+  text-align: center;
+}
+
+#registerForm {
+  display: none;
+  position: relative;
+bottom: 100px;
+}
+
+#loginForm {
+  display: none;
+  box-sizing: border-box;
+}
+
+#inputContainer.errorMessage {
+  color: #000;
+  font-size: 12px;
+  display: block;
+  padding-bottom: 10px;
+}
